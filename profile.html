@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Buah Online</title>
+  </head>
+  <body>
+    <header>
+      <h1>Isi <span> Data </span></h1>
+    </header>
+    <main>
+      <div class="sidebar card">
+        <h1>Tinggal <span>Klik </span></h1>
+        <ul>
+          
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div id="profile" class="content card">
+        <form>
+          <table>
+                <h2 class="box">Form Input Biodata</h2>
+            <tr>
+              <td><label for="nama">Nama Lengkap</label></td>
+              <td>:</td>
+              <td>
+                <input type="text" size="20" name="nama" id="nama" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="tempatTanggalLahir">Tempat, Tanggal Lahir</label>
+              </td>
+              <td>:</td>
+              <td>
+                <input type="text" size="20" name="nama" />,
+                <input type="date" name="tgl" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="alamat">Alamat</label></td>
+              <td>:</td>
+              <td>
+                <textarea
+                  name="alamat"
+                  id="alamat"
+                  cols="40"
+                  rows="3"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="telpon">No. Telp/HP</label></td>
+              <td>:</td>
+              <td>
+                <input type="text" size="20" name="telpon" id="telpon" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="jenisKelamin">Jenis Kelamin</label></td>
+              <td>:</td>
+              <td>
+                <input
+                  type="radio"
+                  name="jenisKelamin"
+                  value="Laki-Laki"
+                  id="laki"
+                />
+                <label for="laki">LakiLaki</label>
+                <input
+                  type="radio"
+                  name="jenisKelamin"
+                  value="Perempuan"
+                  id="perempuan"
+                />
+                <label for="perempuan">Perempuan</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="agama">Agama</label></td>
+              <td>:</td>
+              <td>
+                <input type="text" size="20" name="agama" id="agama" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="hoby">Hoby</label></td>
+              <td>:</td>
+              <td>
+                <input
+                  type="checkbox"
+                  name="hoby[]"
+                  id="bacabuku"
+                  value="Baca Buku"
+                />
+                <label for="bacabuku">Badminton</label>
+                <input
+                  type="checkbox"
+                  name="hoby[]"
+                  id="olahraga"
+                  value="Olah Raga"
+                />
+                <label for="olahraga">Olah Raga</label>
+                <input
+                  type="checkbox"
+                  name="hoby[]"
+                  id="maingame"
+                  value="Main Game"
+                />
+                <label for="maingame">Main Game</label>
+                <input
+                  type="checkbox"
+                  name="hoby[]"
+                  id="traveling"
+                  value="traveling"
+                />
+                <label for="traveling">Traveling</label>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>
+                <input class="btn" type="submit" name="submit" value="Submit" />
+                <input class="btn" type="reset" name="reset" value="Clear!" />
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>@ Panorama</p>
+    </footer>
+  </body>
+</html>
